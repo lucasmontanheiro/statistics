@@ -124,3 +124,28 @@ Key terms for Estimates of Variability:
 
 - **Interquartile range**: The difference between the 75th percentile and the 25th percentile. Synonym: IQR
 
+
+
+### Standard Deviation and Related Estimates
+
+The most widely used estimates of variation are based on the differences, or deviations, between the estimate of location and the observed data. For a set of data {1, 4, 4}, the mean is 3 and the median is 4. The deviations from the mean are the differences: 1 – 3 = –2, 4 – 3 = 1, 4 – 3 = 1. These deviations tell us how dispersed the data is around the central value.
+
+The best-known estimates of variability are the variance and the standard deviation, which are based on squared deviations. The variance is an average of the squared deviations, and the standard deviation is the square root of the variance.
+
+### Estimates Based on Percentiles
+
+A different approach to estimating dispersion is based on looking at the spread of the sorted data. Statistics based on sorted (ranked) data are referred to as order statistics. The most basic measure is the range: the difference between the largest and smallest numbers. The minimum and maximum values themselves are useful to know and are helpful in identifying outliers, but the range is extremely sensitive to outliers and not very useful as a general measure of dispersion in the data.
+
+A common measurement of variability is the difference between the 25th percentile and the 75th percentile, called the interquartile range (or IQR).
+
+
+## Exploring the Data Distribution
+
+- **Boxplot**: A plot introduced by Tukey as a quick way to visualize the distribution of data. Synonym: box and whiskers plot
+
+- **Frequency table**: A tally of the count of numeric data values that fall into a set of intervals (bins).
+
+- **Histogram**: A plot of the frequency table with the bins on the x-axis and the count (or proportion) on the y-axis. While visually similar, bar charts should not be confused with histograms. See “Exploring Binary and Categorical Data” for a discussion of the difference.
+
+- **Density plot**: A smoothed version of the histogram, often based on a kernel density estimate.
+
