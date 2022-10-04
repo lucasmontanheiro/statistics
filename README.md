@@ -149,3 +149,6 @@ A common measurement of variability is the difference between the 25th percentil
 
 - **Density plot**: A smoothed version of the histogram, often based on a kernel density estimate.
 
+## Resources
+
+- [X] [Boslaugh, Sarah. Statistics in a Nutshell (In a Nutshell (O'Reilly)) . O'Reilly Media.]()
