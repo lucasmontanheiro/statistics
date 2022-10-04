@@ -22,6 +22,8 @@ There's a reason for this classification. The befits are:
 - The possible values a given categorical variable can take are enforced in the software (like an enum).
 
 
+
+
 ## Rectangular Data
 The typical frame of reference for an analysis in data science is a rectangular data object, like a spreadsheet or database table.
 
@@ -36,6 +38,9 @@ Key terms for rectangular data:
 - **Outcome**:Many data science projects involve predicting an outcome—often a yes/no outcome (in Table 1-1, it is “auction was competitive or not”). The features are sometimes used to predict the outcome in an experiment or a study. Synonyms: dependent variable, response, target, output
 
 - **Records**: A row within a table is commonly referred to as a record. Synonyms: case, example, instance, observation, pattern, sample.
+
+
+
 
 ## Nonrectangular Data Structures
 
@@ -101,6 +106,9 @@ Weighted mean is available with NumPy. For weighted median, we can use the speci
 np.average(state['Murder.Rate'], weights=state['Population'])
 wquantiles.median(state['Murder.Rate'], weights=state['Population'])
 ```
+
+
+
 
 ## Estimates of Variability
 
